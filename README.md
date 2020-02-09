@@ -1,3 +1,7 @@
+This App has two pages:
+- ImageLoader where you can load pictures and delete them with click.
+- NASA's photo of the day. You can enter date and see astronomy picture of the day.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
