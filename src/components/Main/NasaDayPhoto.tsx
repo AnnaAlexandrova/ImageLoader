@@ -70,7 +70,8 @@ export class NasaDayPhoto extends React.Component<NasaDayPhotoProps, NasaDayPhot
                     result: response.explanation,
                     imgURL: response.url,
                     isLoading: false,
-                    title: response.title
+                    title: response.title,
+                    hasError: false
                 });
             } else {
                 const response = JSON.parse(request.response);
@@ -106,7 +107,7 @@ export class NasaDayPhoto extends React.Component<NasaDayPhotoProps, NasaDayPhot
                 </Form>
 
                 <div className='nasa-photo-content'>
-                    <Spinner animation="border" hidden={!this.state.isLoading}/>
+                    <Spinner animation='border' hidden={!this.state.isLoading}/>
                     <div hidden={this.state.isLoading}>
                         <h2 className={!this.state.hasError ? 'nasa-content-header' : 'on-error-header'}>{this.state.title}</h2>
                         <img src={this.state.imgURL} className='nasa-image-style' alt='Not found'/>

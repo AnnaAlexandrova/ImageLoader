@@ -6,7 +6,7 @@ export class NotFoundPage extends React.Component {
     render() {
         return (
             <div className='not-found-page-body'>
-                <Card className="text-center">
+                <Card className='text-center'>
                     <Card.Img
                         src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQmDKixnmDiEGAazG1N-7oAW8gOqxHptOFkFbt6SfISycwV_zEx'
                     />

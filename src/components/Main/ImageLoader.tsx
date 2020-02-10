@@ -14,7 +14,7 @@ type ImageLoaderState = {
 };
 
 const placeholder: string = 'https://asuikit.com/storage/svg/placeholder_600x400.svg';
-const imageAlt: string = 'X';
+const imageAlt: string = 'Not found';
 
 export class ImageLoader extends React.Component<ImageLoaderProps, ImageLoaderState> {
     state: ImageLoaderState;
@@ -122,7 +122,7 @@ export class ImageLoader extends React.Component<ImageLoaderProps, ImageLoaderSt
 
         return (
             <div className='content-body'>
-                <Alert variant="danger" hidden={!this.state.hasError}>
+                <Alert variant='danger' hidden={!this.state.hasError}>
                     <Alert.Heading>Изображение не найдено!</Alert.Heading>
                     <p>
                         Пожалуйста, убедитесь, что правильно ввели адрес изображения.
@@ -157,6 +157,7 @@ export class ImageLoader extends React.Component<ImageLoaderProps, ImageLoaderSt
                         </Col>
                     </Form.Row>
                 </Form>
+
                 <div className='image-list-style'>{imagesList}</div>
             </div>
         );

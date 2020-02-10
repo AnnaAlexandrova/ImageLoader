@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="dd0dc3a9-b362-4201-a503-f223c5fdc8e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/NotFoundPage/NotFoundPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/NotFoundPage/NotFoundPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/ImageLoader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/ImageLoader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/NasaDayPhoto.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/NasaDayPhoto.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +95,7 @@
       <workItem from="1580972980678" duration="33246000" />
       <workItem from="1581080679401" duration="6519000" />
       <workItem from="1581244903254" duration="123000" />
-      <workItem from="1581245364672" duration="18201000" />
+      <workItem from="1581245364672" duration="19753000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1581286372739</created>
@@ -106,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581286607719</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1581289800481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581289800481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,17 +143,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1581286606018">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1581289799149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581286606018" />
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581289799149" />
     <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581275191397">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581275191397" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581286618909">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581289810242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581286618909" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581289810242" />
   </component>
 </project>
