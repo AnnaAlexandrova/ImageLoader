@@ -7,6 +7,7 @@ import {NasaDayPhoto} from './Main/NasaDayPhoto';
 import {Footer} from './Footer/Footer';
 import {NotFoundPage} from './Header/NotFoundPage/NotFoundPage';
 import './App.css';
+import 'normalize.css';
 
 export default class App extends React.Component {
     render() {
