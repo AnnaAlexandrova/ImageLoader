@@ -6,20 +6,25 @@ import {ImageLoader} from './Main/ImageLoader';
 import {NasaDayPhoto} from './Main/NasaDayPhoto';
 import {Footer} from './Footer/Footer';
 import {NotFoundPage} from './Header/NotFoundPage/NotFoundPage';
+import './App.css';
 
 export default class App extends React.Component {
     render() {
         return (
-            <Router>
-                <Header/>
-                <Switch>
-                    <Route exact path='/' component={ImageLoader}/>
-                    <Route exact path='/imageLoader' component={ImageLoader}/>
-                    <Route exact path='/nasaDayPhoto' component={NasaDayPhoto}/>
-                    <Route path='/*' component={NotFoundPage}/>
-                </Switch>
-                <Footer/>
-            </Router>
+            <div className='body'>
+                <Router>
+                    <Header/>
+                    <div className='main'>
+                        <Switch>
+                            <Route exact path='/' component={ImageLoader}/>
+                            <Route exact path='/imageLoader' component={ImageLoader}/>
+                            <Route exact path='/nasaDayPhoto' component={NasaDayPhoto}/>
+                            <Route path='/*' component={NotFoundPage}/>
+                        </Switch>
+                    </div>
+                    <Footer/>
+                </Router>
+            </div>
         );
     }
 }
