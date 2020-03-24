@@ -13,8 +13,8 @@ type ImageLoaderState = {
     imageIdForRemoving: number;
 };
 
-const placeholder: string = 'https://asuikit.com/storage/svg/placeholder_600x400.svg';
-const imageAlt: string = 'Not found';
+const placeholder: string = 'https://www.stleos.uq.edu.au/wp-content/uploads/2016/08/image-placeholder.png';
+const imageAlt: string = 'Loading';
 
 export class ImageLoader extends React.Component<ImageLoaderProps, ImageLoaderState> {
     state: ImageLoaderState;
